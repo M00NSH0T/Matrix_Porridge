@@ -1,4 +1,4 @@
-# Matrix Porridge: Optimizing the human diet
+# Matrix Porridge: Optimizing the Human Diet. For Everything, but Taste
 
 Many COVID-19 survivors report losing their sense of smell and / or taste. While for most this returns over time, others continue to struggle with this issue months later. This problem made me remember an old project I worked on over a decade ago, way back in 2010 using Matlab. At the time, I was in my final days running my first company, right before Conservation Services Group recruited me. I was working long hours and had very little time to eat regular meals. A friend of mine and I were joking at the time that sometimes it'd be nice to just have an actually healthy meal to just eat in a hurry... one that didn't care at all about taste. 
 
