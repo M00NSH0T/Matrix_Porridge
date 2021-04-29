@@ -11,4 +11,4 @@ So back to these COVID-19 survivors. Losing their sense of taste is clearly not 
 
 This project aims to find the optimal list of ingredients necessary to create the perfect meal for people who can't taste. It doesn't matter if the ingredients make sense to a chef, just as long as they solve the equation and meet the dietary constraints of a typical adult.
 
-Check out the Jupyter Notebook and recipe files.
+Check out the Jupyter Notebooks and recipe files. I recommend reviewing these in order, as certain sections get removed, added, or replaced from one notebook to the next as I evolve / refine the process. The first notebook had a lot more general discussion / background than the subsequent ones. Also, notebookes 1 and 2 used my original dataset from 2010 when I first attempted this problem in Matlab. I got around to rebuilding this using the most recent USDA data in notebook 3, but it still needs some work. There are far too many similar ingredients in here, and the clustering approach from Notebook 2 to filter some of those out was only partially successful.
