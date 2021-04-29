@@ -17,4 +17,6 @@ This project aims to find the optimal list of ingredients necessary to create th
 Check out the Jupyter Notebooks and recipe files. I recommend reviewing these in order, as certain sections get removed, added, or replaced from one notebook to the next as I evolve / refine the process. The first notebook had a lot more general discussion / background than the subsequent ones. Also, notebookes 1 and 2 used my original dataset from 2010 when I first attempted this problem in Matlab. I got around to rebuilding this using the most recent USDA data in notebook 3, but it still needs some work. The recipe actually is pretty interesting, although there are far too many ingredients. I'm going to need to add something to the objective function to minimize number of ingredients in the next version.
 
 Here's a wordcloud of the current winning recipe:
+
+
 ![recipe](https://github.com/M00NSH0T/Matrix_Porridge/blob/main/stylecloud.png?raw=true)
