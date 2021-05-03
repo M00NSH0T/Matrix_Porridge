@@ -22,8 +22,9 @@ Check out the Jupyter Notebooks and recipe files. I recommend reviewing these in
 In the 4th notebook, I took a first pass at manually culling the massive ingredients list... removing high salt / salt added items as well as anything that obviously wasn't going to make it into a healthy, optimal food, such as fried foods. I also removed compound ingredients, such as salads and other prepared foods. And then I added hard constraints for the first time around the sodium requirements instead of the soft bounds built into the objective function, as well as added a constraint for the weight of the final meal. This last part proved necessary after some initial runs with the culled ingredients list yielded recipes that would weigh 5-10 pounds, including mostly raw watercress, which is far more than most non-competitive eaters could realistically take down in one sitting. Then, I modified the objective function to round down any inputs below a given threshold prior to calculating value, which was done to trim down the number of ingredients in the end product. I wanted to move away from solutions that were so complex they needed a word cloud to display. Finally, I used a differential evolution global optimizer to derive the final ingredients list. 
 
 The result is a simple list of three ingredients: 
-1.  reduced sodium whole milk,
-1.  boiled lobster,
-1.  raw, ripe plantains.
+1.  Milk, low sodium, whole	(387 g)
+1.  Ripe plantain, raw	(261 g)
+1.  Lobster, steamed or boiled	(112 g)
 
 Sounds pretty gross, but other than being a bit high in saturated fat, it meets all the constraints for a healthy meal; at least those I included in my objective function and constraints. In future notebooks, I may need revisit those...
+
